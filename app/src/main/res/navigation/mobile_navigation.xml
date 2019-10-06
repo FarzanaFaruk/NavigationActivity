@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Accelerometer">
+
+    <fragment
+        android:id="@+id/nav_Accelerometer"
+        android:name="com.example.mynavactivity.ui.Accelerometer"
+        android:label="@string/menu_accelerometer"
+        tools:layout="@layout/activity_accelerometer" />
+
+    <fragment
+        android:id="@+id/nav_gyroscope"
+        android:name="com.example.mynavactivity.ui.Gyroscope"
+        android:label="@string/menu_gyroscope"
+        tools:layout="@layout/activity_gyroscope" />
+
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="com.example.mynavactivity.ui.Proximity"
+        android:label="@string/menu_proximity"
+        tools:layout="@layout/activity_proximity" />
+
+    <fragment
+        android:id="@+id/nav_shake"
+        android:name="com.example.mynavactivity.ui.Shake"
+        android:label="@string/menu_shake"
+        tools:layout="@layout/activity_shake" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.mynavactivity.ui.Map"
+        android:label="@string/menu_map"
+        tools:layout="@layout/activity_map" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.example.mynavactivity.ui.Gyroscope_Data"
+        android:label="@string/menu_data"
+        tools:layout="@layout/activity_gyroscope__data" />
+</navigation>
